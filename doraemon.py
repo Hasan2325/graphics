@@ -2,7 +2,7 @@ from turtle import *
 
 
 # Doraemon with Python Turtle
-def hasan(x, y):
+def ankur(x, y):
     penup()
     goto(x, y)
     pendown()
@@ -28,33 +28,33 @@ def aankha():
 
 
 def daari():
-    hasan(-32, 135)
+    ankur(-32, 135)
     seth(165)
     fd(60)
 
-    hasan(-32, 125)
+    ankur(-32, 125)
     seth(180)
     fd(60)
 
-    hasan(-32, 115)
+    ankur(-32, 115)
     seth(193)
     fd(60)
 
-    hasan(37, 135)
+    ankur(37, 135)
     seth(15)
     fd(60)
 
-    hasan(37, 125)
+    ankur(37, 125)
     seth(0)
     fd(60)
 
-    hasan(37, 115)
+    ankur(37, 115)
     seth(-13)
     fd(60)
 
 
 def mukh():
-    hasan(5, 148)
+    ankur(5, 148)
     seth(270)
     fd(100)
     seth(0)
@@ -79,7 +79,7 @@ def muflar():
 
 
 def nak():
-    hasan(-10, 158)
+    ankur(-10, 158)
     seth(315)
     fillcolor('#e70010')
     begin_fill()
@@ -89,25 +89,25 @@ def nak():
 
 def black_aankha():
     seth(0)
-    hasan(-20, 195)
+    ankur(-20, 195)
     fillcolor('#000000')
     begin_fill()
     circle(13)
     end_fill()
 
     pensize(6)
-    hasan(20, 205)
+    ankur(20, 205)
     seth(75)
     circle(-10, 150)
     pensize(3)
 
-    hasan(-17, 200)
+    ankur(-17, 200)
     seth(0)
     fillcolor('#ffffff')
     begin_fill()
     circle(5)
     end_fill()
-    hasan(0, 0)
+    ankur(0, 0)
 
 
 def face():
@@ -123,7 +123,7 @@ def face():
     seth(215)
     circle(120, 100)
     end_fill()
-    hasan(63.56, 218.24)
+    ankur(63.56, 218.24)
     seth(90)
     aankha()
     seth(180)
@@ -160,7 +160,7 @@ def Doraemon():
 
     daari()
 
-    hasan(0, 0)
+    ankur(0, 0)
 
     seth(0)
     penup()
@@ -222,7 +222,7 @@ def Doraemon():
     circle(-30)
     end_fill()
 
-    hasan(103.74, -182.59)
+    ankur(103.74, -182.59)
     seth(0)
     fillcolor('#ffffff')
     begin_fill()
@@ -233,7 +233,7 @@ def Doraemon():
     fd(10)
     end_fill()
 
-    hasan(-96.26, -182.59)
+    ankur(-96.26, -182.59)
     seth(180)
     fillcolor('#ffffff')
     begin_fill()
@@ -244,7 +244,7 @@ def Doraemon():
     fd(10)
     end_fill()
 
-    hasan(-133.97, -91.81)
+    ankur(-133.97, -91.81)
     seth(50)
     fillcolor('#ffffff')
     begin_fill()
@@ -252,7 +252,7 @@ def Doraemon():
     end_fill()
     # Doraemon with Python Turtle
 
-    hasan(-103.42, 15.09)
+    ankur(-103.42, 15.09)
     seth(0)
     fd(38)
     seth(230)
@@ -260,7 +260,7 @@ def Doraemon():
     circle(90, 260)
     end_fill()
 
-    hasan(5, -40)
+    ankur(5, -40)
     seth(0)
     fd(70)
     seth(-90)
@@ -268,7 +268,7 @@ def Doraemon():
     seth(0)
     fd(70)
 
-    hasan(-103.42, 15.09)
+    ankur(-103.42, 15.09)
     fd(90)
     seth(70)
     fillcolor('#ffd200')
@@ -292,7 +292,7 @@ def Doraemon():
     seth(90)
     fd(15)
     dot(10)
-    hasan(0, -150)
+    ankur(0, -150)
 
     black_aankha()
 
@@ -302,5 +302,4 @@ if __name__ == '__main__':
     pensize(3)
     speed(9)
     Doraemon()
-    hasan(100, -300)
     mainloop()
